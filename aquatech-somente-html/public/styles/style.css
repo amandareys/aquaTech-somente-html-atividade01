@@ -1,0 +1,207 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+    body{
+        margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+    }
+    * {
+        box-sizing: border-box;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        border-bottom: 4px solid rgb(0, 162, 181);
+        height: 60px;
+
+}
+         
+.container {
+
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.login  .container {
+    justify-content: center;
+}
+.titulo {
+    margin: 0;
+    display: flex;
+    justify-self: flex-start;
+    color: rgb(0, 162, 181);
+    font-family:'Poppins',sans-serif;
+    font-weight: 350;
+    
+}
+.navbar {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    color: rgb(244, 224, 99);
+    font-family: 'Poppins',sans-serif;
+}
+a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgb(244, 224, 99);
+}
+.login {
+    height: 80vh;
+    background: url(../assets/imgs/bg-jelly-fish-para-home.png);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    font-family: 'Poppins',sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+
+    background-color: rgb(235, 233, 233);
+    padding: 0px 30px 30px 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.card h2 {
+    font-family: 'Poppins',sans-serif;
+    color: rgb(248, 100, 139);
+}
+.card .formulario {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap:15px;
+    text-align: center;
+    
+}
+.campo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    color: rgb(248, 100, 139);
+    
+}
+.campo input{
+
+    width: 100%;
+    max-width: 350px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    border: 2px solid rgb(0, 162, 181);
+    padding: 8px;
+    text-align: center;
+
+}
+.botao{
+    align-self: center;
+    width: 100px;
+    border-radius: 3px;
+    background-color: rgb(245, 22, 81);
+    border: 1px solid rgb(245, 22, 81);
+
+    font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+
+}
+.footer{
+    background-color: rgb(0, 162, 181);
+    padding: 4px 0px;
+    text-align: center;
+}
+.footer .container{
+    font-family: 'Poppins',sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+
+.banner {
+    height: 80vh;
+    background: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.banner p {
+    width: 100%;
+    max-width: 200px;
+    font-size: 32px;
+    font: weight 300;
+    color: #ffffff;
+    font-family:'Poppins',sans-serif; 
+}
+.estilo-fonte {
+    font-weight: bold;
+}
+.banner .container {
+    width: 90%;          
+    margin: -120px;              
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  
+
+}
+
+.social {
+    background-color:aliceblue;
+    padding: 60px 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+.box {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.box img {
+    width: 100px;
+    height: auto;
+	margin-bottom: 20px;
+
+}
+.box h4 {
+    color:rgb(245, 22, 81) ;
+    margin: 0 0 10px 0;
+    justify-self: center;
+}
